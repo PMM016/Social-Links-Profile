@@ -1,43 +1,3 @@
-# Social Links Profile
-
-This is a simple social links profile card built with HTML, CSS, and JavaScript. It displays personal information and links to various social media platforms.
-
-## Preview
-
-![Preview](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/sfsa14rwjz0wp7lzel2x.jpg)
-
-## Features
-
-- Responsive design for mobile and desktop.
-- Hover effects on social links.
-- Customizable personal details.
-
-## Technologies Used
-
-- HTML5
-- CSS3 (with CSS variables for colors)
-- JavaScript (minimal, for logging)
-
-## Installation
-
-1. Clone the repository: Git clone https://github.com/PMM016/Frontend-Mentor-Challenges,git
-2. Open `index.html` in your browser.
-
-## Customization
-
-- Update the name, location, quote, and links in the `index.html` file.
-- The avatar image can be replaced by updating the `src` attribute in the `<img>` tag.
-
-## Credits
-
-- Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32EgF6ls).
-- Fonts from [Google Fonts](https://fonts.google.com/specimen/Inter).
-
-## Author
-
-- Name: PMM016
-
-``` HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,6 +7,7 @@ This is a simple social links profile card built with HTML, CSS, and JavaScript.
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Social Links Profile</title>
+    <link rel="icon" href="assets\images\favicon-32x32.png">
     <style>
         :root {
             --green: hsl(75, 94%, 57%);
@@ -138,10 +99,10 @@ This is a simple social links profile card built with HTML, CSS, and JavaScript.
 </head>
 <body>
     <main class="card">
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=PMM" alt="PMM" class="avatar">
-        <h1 class="name">PMM</h1>
-        <p class="location">Location, Country</p>
-        <p class="quote">"Your profession or quote here."</p>
+        <img src="assets\images\avatar-jessica.jpeg" alt="Jessica Randall" class="avatar">
+        <h1 class="name">Jessica Randall</h1>
+        <p class="location">London, United Kingdom</p>
+        <p class="quote">"Front-end developer and avid reader."</p>
         <ul class="links">
             <li class="link-item"><a href="https://github.com/" class="link">GitHub</a></li>
             <li class="link-item"><a href="https://www.frontendmentor.io/" class="link">Frontend Mentor</a></li>
@@ -152,4 +113,3 @@ This is a simple social links profile card built with HTML, CSS, and JavaScript.
     </main>
 </body>
 </html>
-```
